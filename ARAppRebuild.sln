@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAppRebuild.CSharp", "ARAppRebuild.CSharp.csproj", "{D00BF832-C2E2-9C2A-062E-0080CF1E11C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARAppRebuild.CSharp.Editor", "ARAppRebuild.CSharp.Editor.csproj", "{C879FEC6-C0C4-7321-717C-BDD9EE36293A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D00BF832-C2E2-9C2A-062E-0080CF1E11C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00BF832-C2E2-9C2A-062E-0080CF1E11C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00BF832-C2E2-9C2A-062E-0080CF1E11C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00BF832-C2E2-9C2A-062E-0080CF1E11C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C879FEC6-C0C4-7321-717C-BDD9EE36293A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C879FEC6-C0C4-7321-717C-BDD9EE36293A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C879FEC6-C0C4-7321-717C-BDD9EE36293A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C879FEC6-C0C4-7321-717C-BDD9EE36293A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
