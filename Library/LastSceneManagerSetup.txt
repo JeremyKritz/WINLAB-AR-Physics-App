@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Build 4 (Working balls).unity
+- path: Assets/build 8 (UI Canvas).unity
   isLoaded: 1
   isActive: 1
