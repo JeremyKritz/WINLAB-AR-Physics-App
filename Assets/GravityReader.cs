@@ -20,4 +20,8 @@ public class GravityReader : MonoBehaviour
         Vector3 gravityHere = Physics.gravity;
         gravity.text = "Gravity is: " + gravityHere.y;
     }
+
+
+
+
 }
