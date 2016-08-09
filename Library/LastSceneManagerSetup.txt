@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/build 8 (UI Canvas).unity
+- path: Assets/build 12 (new real hands working, cameras moved).unity
   isLoaded: 1
   isActive: 1
