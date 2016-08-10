@@ -10,7 +10,7 @@ public class SliderChange : MonoBehaviour
     //Invoked when a submit button is clicked.
     public void Update()
     {
-        Debug.Log(y);
+        
         if (y == 1) { 
             //Displays the value of the slider in the console.
             Vector3 sup = Physics.gravity;

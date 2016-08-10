@@ -27,7 +27,7 @@ public class MagneticPinch : MonoBehaviour {
 	protected Collider grabbed_;
 
 	void Start() {
-		pinching_ = false;
+        pinching_ = false;
 		grabbed_ = null;
 	}
 
@@ -62,8 +62,9 @@ public class MagneticPinch : MonoBehaviour {
 		bool trigger_pinch = false;
 		HandModel hand_model = GetComponent<HandModel>();
 		Hand leap_hand = hand_model.GetLeapHand();
+        forceSpringConstant = (float)(Mathf.Abs(Physics.gravity.y)*9.8)/2;
 
-		if (leap_hand == null)
+        if (leap_hand == null)
 			return;
 
 		// Scale trigger distance by thumb proximal bone length.
