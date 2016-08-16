@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PEtest : MonoBehaviour //COPIED FROM KE, BE CAREFUL
 {
-
+    public float reset = 0;
     // Use this for initialization
     void Start()
     {
@@ -15,7 +15,7 @@ public class PEtest : MonoBehaviour //COPIED FROM KE, BE CAREFUL
     void Update()
     {
         GameObject sphObj;
-        sphObj = GameObject.Find("Sphere");
+        sphObj = GameObject.Find("Planet");
         Rigidbody sph = sphObj.GetComponent<Rigidbody>();
 
         GameObject PEsph = GameObject.Find("PEball"); // this needs to be name of thingy
@@ -37,7 +37,14 @@ public class PEtest : MonoBehaviour //COPIED FROM KE, BE CAREFUL
 
 
         Vector3 oldPos = PEsph.transform.position;
-        transform.position = new Vector3(oldPos.x + (float).05, PEf * (float).05, oldPos.z);
+        reset = reset + (float).05;
+        if (reset >= 20)
+        {
+            reset = 0;
+            oldPos.x = oldPos.x - 20;
+        }
+
+        transform.position = new Vector3(oldPos.x + (float).05, PEf * (float).1, oldPos.z );
 
 
     }
